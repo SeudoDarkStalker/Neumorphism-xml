@@ -1,0 +1,52 @@
+<!-- res/values/styles.xml -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/neumorphic_background</item>
+        <item name="colorPrimaryDark">@color/neumorphic_shadow_dark</item>
+        <item name="colorAccent">@color/neumorphic_accent_start</item>
+        <item name="android:windowBackground">@color/neumorphic_background</item>
+        <item name="android:textColorPrimary">@color/neumorphic_text_primary</item>
+        <item name="android:textColorSecondary">@color/neumorphic_text_secondary</item>
+        <item name="android:statusBarColor">@color/neumorphic_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    
+    <!-- Fullscreen theme for emulator -->
+    <style name="AppTheme.Fullscreen" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <!-- Neumorphic specific styles -->
+    <style name="NeumorphicCard">
+        <item name="cardCornerRadius">15dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="android:background">@drawable/neumorphic_raised</item>
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+    </style>
+    
+    <style name="NeumorphicText.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/neumorphic_text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="NeumorphicText.Subtitle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/neumorphic_text_secondary</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+    
+    <style name="NeumorphicText.SectionHeader">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/neumorphic_text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+    </style>
+    
+</resources>
