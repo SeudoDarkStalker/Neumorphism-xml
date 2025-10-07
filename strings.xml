@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>  <resources>  
+    <string name="app_name">3DS Emulator</string>  
+    <string name="settings_title">Settings</string>  <!-- Settings strings -->  
+<string name="settings_graphics">Graphics</string>  
+<string name="settings_audio">Audio</string>  
+<string name="settings_performance">Performance</string>  
+<string name="settings_controls">Controls</string>  
+  
+<string name="hardware_acceleration">Hardware Acceleration</string>  
+<string name="hardware_acceleration_desc">Use GPU for better performance</string>  
+  
+<string name="resolution_scale">Resolution Scale</string>  
+<string name="resolution_scale_desc">Higher values improve visual quality</string>  
+  
+<string name="graphics_backend">Graphics Backend</string>  
+<string name="graphics_backend_desc">Choose rendering API</string>  
+  
+<string name="enable_audio">Enable Audio</string>  
+<string name="enable_audio_desc">Toggle audio output</string>  
+  
+<string name="volume">Volume</string>  
+<string name="volume_desc">Adjust audio volume</string>  
+  
+<string name="frame_skip">Frame Skip</string>  
+<string name="frame_skip_desc">Skip frames to maintain speed</string>  
+  
+<string name="cpu_clock_speed">CPU Clock Speed</string>  
+<string name="cpu_clock_speed_desc">Emulated CPU frequency</string>  
+  
+<string name="touch_controls">Touch Controls</string>  
+<string name="touch_controls_desc">Enable on-screen controls</string>  
+  
+<string name="configure_controls">Configure Controls</string>  
+<string name="configure_controls_desc">Customize button mapping</string>  
+  
+<string name="save_configuration">Save Configuration</string>  
+  
+<!-- Graphics backend options -->  
+<string-array name="graphics_backends">  
+    <item>OpenGL</item>  
+    <item>Vulkan</item>  
+    <item>Software</item>  
+</string-array>
+
+</resources>
